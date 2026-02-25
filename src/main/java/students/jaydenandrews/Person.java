@@ -22,7 +22,4 @@ public abstract class Person {
     }
 
     public abstract void getSummary();
-    public static void main(String[] args) {
-
-    }
 }

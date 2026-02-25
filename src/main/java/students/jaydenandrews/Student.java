@@ -16,6 +16,14 @@ public class Student extends Person {
                 "Grade Level: " + this.gradeLevel + " | GPA: " + this.gpa + " | Honor Roll: " + isOnHonorRoll());
     }
 
+    public int getGradeLevel() {
+        return gradeLevel;
+    }
+
+    public double getGpa() {
+        return gpa;
+    }
+
     public boolean isOnHonorRoll() {
         return (this.gpa > 3.0);
     }
