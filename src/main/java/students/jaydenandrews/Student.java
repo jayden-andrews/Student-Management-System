@@ -24,7 +24,7 @@ public class Student extends Person {
         return gpa;
     }
 
-    public boolean isOnHonorRoll() {
-        return (this.gpa > 3.0);
+    public String isOnHonorRoll() {
+        return (this.gpa > 3.0 ? "Yes" : "No");
     }
 }
